@@ -21,6 +21,7 @@ theme = "printwire-theme"
   heroImage      = "images/02_laser_melting.png"
   overviewImage  = "images/12_structural_beam.png"
   ctaImage       = "images/13_engine_component.png"
+  newsFallbackImages = ["images/07_heat_exchanger.png", "images/18_pre_production.png", "images/19_integrated_assembly.png", "images/20_production_ready.png", "images/08_polished_spec.png", "images/09_tensile_sample.png"]
 
 [[params.stats]]
   number = "1055"

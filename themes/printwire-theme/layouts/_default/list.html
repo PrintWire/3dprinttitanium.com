@@ -21,19 +21,19 @@
   <div class="container-wide">
 
     {{ if .Pages }}
+    {{ $fallbacks := $.Site.Params.newsFallbackImages | default (slice "images/01.png" "images/02.png" "images/03.png") }}
     <div class="articles-grid">
-      {{ range .Pages }}
+      {{ range $idx, $page := .Pages }}
       <article class="article-card animate-in">
-        {{ with .Params.image }}
+        {{ with $page.Params.image }}
         <div class="article-card-image">
-          <img src="{{ if hasPrefix . "http" }}{{ . }}{{ else }}{{ $.Site.BaseURL }}{{ . }}{{ end }}" alt="{{ $.Title }}" loading="lazy">
+          <img src="{{ if hasPrefix . "http" }}{{ . }}{{ else }}{{ $.Site.BaseURL }}{{ . }}{{ end }}" alt="{{ $page.Title }}" loading="lazy">
         </div>
         {{ else }}
-        {{ with $.Site.Params.heroImage }}
+        {{ $fallbackImg := index $fallbacks (mod $idx (len $fallbacks)) }}
         <div class="article-card-image">
-          <img src="{{ if hasPrefix . "http" }}{{ . }}{{ else }}{{ $.Site.BaseURL }}{{ . }}{{ end }}" alt="{{ $.Site.Title }}" loading="lazy">
+          <img src="{{ if hasPrefix $fallbackImg "http" }}{{ $fallbackImg }}{{ else }}{{ $.Site.BaseURL }}{{ $fallbackImg }}{{ end }}" alt="{{ $page.Title }}" loading="lazy">
         </div>
-        {{ end }}
         {{ end }}
         <div class="article-card-body">
           <div class="article-card-meta">
