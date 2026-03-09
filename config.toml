@@ -39,28 +39,28 @@ theme = "printwire-theme"
   label  = "ELI Grade Available"
 
 [[params.services]]
-  title = "Aerospace Titanium Parts"
-  icon  = "◎"
-  image = "images/03_internal_channels.png"
-  short = "Ti6Al4V DMLS structural components for aerospace — brackets, ducting, housings, and topology-optimized flight-critical hardware."
+  name        = "Aerospace Titanium Parts"
+  icon        = "◎"
+  image       = "images/03_internal_channels.png"
+  description = "Ti6Al4V DMLS structural components for aerospace — brackets, ducting, housings, and topology-optimized flight-critical hardware."
 
 [[params.services]]
-  title = "Medical Implants"
-  icon  = "✦"
-  image = "images/04_support_attached.png"
-  short = "Patient-specific orthopedic implants, spinal cages, dental prosthetics, and surgical tools in ASTM F136 Ti6Al4V ELI."
+  name        = "Medical Implants"
+  icon        = "✦"
+  image       = "images/04_support_attached.png"
+  description = "Patient-specific orthopedic implants, spinal cages, dental prosthetics, and surgical tools in ASTM F136 Ti6Al4V ELI."
 
 [[params.services]]
-  title = "Post-Processing & Finishing"
-  icon  = "⚙"
-  image = "images/05_medical_implant.png"
-  short = "HIP, stress relief, anodizing, CNC machining, and surface finishing for production-grade titanium parts."
+  name        = "Post-Processing & Finishing"
+  icon        = "⚙"
+  image       = "images/05_medical_implant.png"
+  description = "HIP, stress relief, anodizing, CNC machining, and surface finishing for production-grade titanium parts."
 
 [[params.services]]
-  title = "Specialty Alloys & Research"
-  icon  = "◈"
-  image = "images/06_aerospace_bracket.png"
-  short = "Pure titanium Grade 2, Ti-5553, and beta-titanium alloys for research, high-temperature, and corrosion applications."
+  name        = "Specialty Alloys & Research"
+  icon        = "◈"
+  image       = "images/06_aerospace_bracket.png"
+  description = "Pure titanium Grade 2, Ti-5553, and beta-titanium alloys for research, high-temperature, and corrosion applications."
 
 [[params.applications]]
   title       = "Aerospace Structures"
