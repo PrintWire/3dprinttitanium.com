@@ -11,14 +11,16 @@ theme = "printwire-theme"
   fontPrimary    = "Orbitron"
   fontSecondary  = "Space Grotesk"
   fontURL        = "https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
-  ogImage        = "/images/01_aerospace_part.png"
+  ogImage        = "images/01_aerospace_part.png"
   favicon        = "🔩"
   pubmedQuery    = "titanium+DMLS+3D+printing+aerospace+medical+Ti6Al4V+additive+manufacturing"
   contactEmail   = "maxdavisgroup@gmail.com"
   web3formsKey   = "6f33053b-6d08-414b-9615-665f88c98da8"
   xometryId      = "XOMETRY_AFFILIATE_ID"
   domain         = "3dprinttitanium.com"
-  heroImage      = "/images/02_laser_melting.png"
+  heroImage      = "images/02_laser_melting.png"
+  overviewImage  = "images/12_structural_beam.png"
+  ctaImage       = "images/13_engine_component.png"
 
 [[params.stats]]
   number = "1055"
@@ -39,26 +41,46 @@ theme = "printwire-theme"
 [[params.services]]
   title = "Aerospace Titanium Parts"
   icon  = "◎"
-  image = "/images/03_internal_channels.png"
+  image = "images/03_internal_channels.png"
   short = "Ti6Al4V DMLS structural components for aerospace — brackets, ducting, housings, and topology-optimized flight-critical hardware."
 
 [[params.services]]
   title = "Medical Implants"
   icon  = "✦"
-  image = "/images/04_support_attached.png"
+  image = "images/04_support_attached.png"
   short = "Patient-specific orthopedic implants, spinal cages, dental prosthetics, and surgical tools in ASTM F136 Ti6Al4V ELI."
 
 [[params.services]]
   title = "Post-Processing & Finishing"
   icon  = "⚙"
-  image = "/images/05_medical_implant.png"
+  image = "images/05_medical_implant.png"
   short = "HIP, stress relief, anodizing, CNC machining, and surface finishing for production-grade titanium parts."
 
 [[params.services]]
   title = "Specialty Alloys & Research"
   icon  = "◈"
-  image = "/images/06_aerospace_bracket.png"
+  image = "images/06_aerospace_bracket.png"
   short = "Pure titanium Grade 2, Ti-5553, and beta-titanium alloys for research, high-temperature, and corrosion applications."
+
+[[params.applications]]
+  title       = "Aerospace Structures"
+  description = "Topology-optimized brackets, actuator housings, and hydraulic manifolds. Ti6Al4V at 993–1,055 MPa — matched to wrought performance after stress relief."
+  image       = "images/14_grade5_integrity.png"
+
+[[params.applications]]
+  title       = "Medical Implants"
+  description = "Patient-specific orthopedic and spinal implants in ASTM F136 Ti6Al4V ELI. Porous lattice for osseointegration printed directly into implant surfaces."
+  image       = "images/15_fastener_batch.png"
+
+[[params.applications]]
+  title       = "Satellite & Defence"
+  description = "Lightweight structural frames, antenna mounts, and thermal management components. Titanium's corrosion resistance and radiation tolerance make it the material of choice."
+  image       = "images/16_satellite_component.png"
+
+[[params.applications]]
+  title       = "Motorsport & Racing"
+  description = "Suspension uprights, brake callipers, and exhaust components where every gram matters. Ti6Al4V delivers the strength-to-weight ratio no aluminium alloy can match."
+  image       = "images/17_patient_specific.png"
 
 [markup.goldmark.renderer]
   unsafe = true

@@ -2,7 +2,7 @@
 title: "Advertise on 3D Print Titanium"
 description: "Reach aerospace engineers, medical device designers, and procurement officers sourcing DMLS titanium parts."
 layout: "advertise"
-heroImage: "/images/07_heat_exchanger.png"
+heroImage: "images/07_heat_exchanger.png"
 ---
 
 ## Advertise on 3D Print Titanium
