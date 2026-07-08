@@ -12,6 +12,7 @@ title = "3D Print Titanium"
 
 [params]
   siteName       = "3D Print Titanium"
+  logoHtml       = '3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">TITANIUM</span>'
   tagline        = "Ti6Al4V DMLS titanium printing for aerospace and medical applications. 993–1055 MPa tensile strength, 99.5% density, ASTM F136 compliance."
   primaryColor   = "#5a9fd4"
   bgColor        = "#050a10"

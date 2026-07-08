@@ -34,7 +34,7 @@
 <header class="ed-header">
   <div class="ed-header-inner">
     <a href="/" class="ed-logo">
-      3D Print Titanium
+      3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">TITANIUM</span>
     </a>
     <button class="ed-nav-toggle" aria-label="Menu" onclick="document.querySelector('.ed-nav').classList.toggle('open')">&#9776;</button>
     <nav class="ed-nav">
@@ -302,7 +302,7 @@
 <figure class="pw-model-viewer-figure ">
   <div
     class="pw-model-viewer-wrap"
-    id="mv-0f4fc000f5d5eb911a62bda3c706c32c"
+    id="mv-b121bac519df08b778ffd8f8c1b1c6f7"
     style="--mv-bg: #1a1a2e;"
     data-src="/models/sample-cube.stl"
     data-height="500"
@@ -319,9 +319,9 @@
   
   (function waitAndInit() {
     if (window.PrintWireModelViewer) {
-      const el  = document.getElementById("mv-0f4fc000f5d5eb911a62bda3c706c32c");
+      const el  = document.getElementById("mv-b121bac519df08b778ffd8f8c1b1c6f7");
       const raw = el.dataset;
-      window.PrintWireModelViewer.init("mv-0f4fc000f5d5eb911a62bda3c706c32c", {
+      window.PrintWireModelViewer.init("mv-b121bac519df08b778ffd8f8c1b1c6f7", {
         src:        raw.src,
         height:     parseInt(raw.height, 10) || 500,
         autorotate: raw.autorotate !== "false",
@@ -360,7 +360,7 @@
 <footer class="ed-footer">
   <div class="ed-footer-inner">
     <div class="ed-footer-brand">
-      <div class="ed-logo">3D Print Titanium</div>
+      <div class="ed-logo">3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">TITANIUM</span></div>
       <p> Part of the PrintWire network.</p>
     </div>
     <div>
