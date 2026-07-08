@@ -1,7 +1,14 @@
 baseURL = "https://3dprinttitanium.com/"
 languageCode = "en-us"
 title = "3D Print Titanium"
-theme = "printwire-theme"
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
   siteName       = "3D Print Titanium"
@@ -82,9 +89,6 @@ theme = "printwire-theme"
   title       = "Motorsport & Racing"
   description = "Suspension uprights, brake callipers, and exhaust components where every gram matters. Ti6Al4V delivers the strength-to-weight ratio no aluminium alloy can match."
   image       = "images/17_patient_specific.png"
-
-[markup.goldmark.renderer]
-  unsafe = true
 
 [[menu.main]]
   name   = "Home"
