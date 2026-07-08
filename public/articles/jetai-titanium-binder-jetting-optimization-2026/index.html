@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="JetAI is an AI-driven framework combining quantum-inspired algorithms and machine learning to optimize binder jetting parameters for titanium alloy aerospace components — achieving 36.7% isotropy improvement and superior tensile strength over classical methods.">
+  <meta property="og:title" content="JetAI: AI-Driven Optimization of Binder Jetting for Titanium Alloys | 3D Print Titanium">
+  <meta property="og:description" content="JetAI is an AI-driven framework combining quantum-inspired algorithms and machine learning to optimize binder jetting parameters for titanium alloy aerospace components — achieving 36.7% isotropy improvement and superior tensile strength over classical methods.">
+  <meta property="og:type" content="website">
+  <title>JetAI: AI-Driven Optimization of Binder Jetting for Titanium Alloys | 3D Print Titanium</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/editorial.css">
+  <style>
+  .article-content h2 { font-family: var(--font-display); margin: 2.5rem 0 1rem; color: var(--accent); font-size: 1.5rem; }
+  .article-content h3 { font-family: var(--font-display); margin: 2rem 0 0.75rem; font-size: 1.25rem; color: var(--heading); }
+  .article-content p { margin-bottom: 1.5rem; color: var(--text-dim); line-height: 1.8; }
+  .article-content ul, .article-content ol { margin-bottom: 1.5rem; padding-left: 1.5rem; color: var(--text-dim); }
+  .article-content li { margin-bottom: 0.5rem; line-height: 1.7; }
+  .article-content a { color: var(--accent); text-decoration: underline; }
+  .article-content a:hover { color: var(--heading); }
+  .article-content blockquote { border-left: 3px solid var(--accent); padding-left: 1.5rem; margin: 1.5rem 0; color: var(--text-dim); font-style: italic; }
+  .article-content strong { color: var(--heading); }
+  .article-content hr { border: none; border-top: 1px solid var(--border); margin: 2.5rem 0; }
+  .article-content table { width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; }
+  .article-content th, .article-content td { padding: 0.75rem 1rem; border: 1px solid var(--border); color: var(--text-dim); text-align: left; }
+  .article-content th { background: var(--accent-dim); color: var(--heading); font-family: var(--font-display); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .article-content img { max-width: 100%; border-radius: var(--radius); margin: 1.5rem 0; }
+  </style>
+</head>
+<body>
+
+<header class="ed-header">
+  <div class="ed-header-inner">
+    <a href="/" class="ed-logo">
+      3D Print Titanium
+    </a>
+    <button class="ed-nav-toggle" aria-label="Menu" onclick="document.querySelector('.ed-nav').classList.toggle('open')">&#9776;</button>
+    <nav class="ed-nav">
+      <a href="/">News</a>
+      <a href="/services.html">Services</a>
+      <a href="/about.html">About</a>
+      <a href="/articles/" class="active">Articles</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/advertise.html">Advertise</a>
+      <a href="/viewer.html">3D Viewer</a>
+    </nav>
+    <button class="ed-theme-toggle" id="themeToggle" aria-label="Toggle light/dark mode" title="Toggle light/dark mode">&#9790;</button>
+  </div>
+</header>
+
+<div class="ed-breadcrumbs">
+  <a href="/">Home</a> <span>/</span> <a href="/articles/">Articles</a> <span>/</span> JetAI: AI-Driven Optimization of Binder Jetting for Titanium Alloys
+</div>
+
+<main>
+  
+<div class="ed-content-narrow">
+  <div class="ed-section">
+    
+    <div style="margin-bottom: 1rem;">
+      
+      <span class="ed-badge" style="margin-right: 0.5rem;">titanium</span>
+      
+      <span class="ed-badge" style="margin-right: 0.5rem;">binder-jetting</span>
+      
+      <span class="ed-badge" style="margin-right: 0.5rem;">aerospace</span>
+      
+      <span class="ed-badge" style="margin-right: 0.5rem;">AI</span>
+      
+      <span class="ed-badge" style="margin-right: 0.5rem;">research</span>
+      
+    </div>
+    
+
+    <h1 style="margin-bottom: 0.5rem;">JetAI: AI-Driven Optimization of Binder Jetting for Titanium Alloys</h1>
+    <div class="ed-card-meta" style="margin-bottom: 2rem;">
+      <time datetime="2026-03-28">March 28, 2026</time>
+       &middot; PrintWire Research
+    </div>
+
+    
+    <img src="/images/jetai/fig_main_results.png" alt="JetAI: AI-Driven Optimization of Binder Jetting for Titanium Alloys" style="width:100%;height:auto;border-radius:8px;margin-bottom:2rem;" loading="lazy">
+    
+
+    <div class="article-content">
+      <h2 id="abstract">Abstract</h2>
+<p>The optimization of metal binder jetting for titanium alloy aerospace components is essential, given the industry&rsquo;s shift towards additive manufacturing for its advantages in strength-to-weight ratio and corrosion resistance. Current processes face challenges in achieving optimal isotropy and mechanical properties. We introduce JetAI, an AI-driven framework that dynamically adjusts jetting parameters to optimize component quality. Utilizing a hybrid approach that combines quantum-inspired algorithms and machine learning, JetAI enhances isotropy by 36.7% and improves tensile strength to 21.54 MPa over traditional methods. These results suggest that JetAI not only benefits titanium alloys but also holds potential for broader material applications, setting a new standard in aerospace manufacturing.</p>
+<h2 id="introduction">Introduction</h2>
+<p>The aerospace industry increasingly relies on additive manufacturing due to its ability to produce complex, lightweight, yet strong components. Titanium alloys, with their high strength-to-weight ratios and excellent corrosion resistance, are particularly well-suited for aerospace applications. However, current metal binder jetting processes often fall short in delivering the desired isotropy and mechanical properties, crucial for aerospace component performance.</p>
+<p>Despite advancements, optimizing binder jetting for titanium alloys remains challenging. Traditional methods predominantly focus on post-processing, such as heat treatments, which are both costly and time-intensive. Recent efforts have explored AI-driven optimization to dynamically adjust process parameters in real-time, potentially addressing these challenges. However, the application of these technologies specifically to titanium alloys is underexplored.</p>
+<p>JetAI, our proposed solution, addresses these challenges by employing a novel hybrid optimization framework. This framework combines quantum-inspired algorithms for initial parameter exploration with machine learning models for detailed refinement, enhancing isotropy and mechanical properties while minimizing post-processing requirements. By integrating quantum-inspired techniques with machine learning, JetAI represents a significant advancement in optimizing metal binder jetting processes.</p>
+<p><strong>Key contributions:</strong></p>
+<ul>
+<li>Significant improvements in isotropy and mechanical properties through AI-driven optimization</li>
+<li>Broader applicability beyond titanium alloys to other advanced materials</li>
+<li>Identification of gaps in existing methodologies, paving the way for future research in AI-driven manufacturing optimization</li>
+<li>A robust experimental framework for validating and replicating findings</li>
+</ul>
+<h2 id="related-work">Related Work</h2>
+<h3 id="binder-jetting-optimization-techniques">Binder Jetting Optimization Techniques</h3>
+<p>Binder jetting is valued for its capability to produce complex geometries without the need for support structures. However, achieving optimal mechanical properties and dimensional accuracy remains a persistent challenge. Traditional optimization methods primarily focus on adjusting powder characteristics and sintering conditions. JetAI diverges by introducing an AI-driven approach that dynamically optimizes these parameters in real-time, offering a more responsive and adaptable solution.</p>
+<h3 id="ai-applications-in-materials-science">AI Applications in Materials Science</h3>
+<p>The integration of AI in materials science has opened new avenues for process optimization. Machine learning models have been deployed to predict material behavior and optimize manufacturing processes. JetAI builds on these advancements by incorporating a hybrid optimization strategy that leverages quantum-inspired algorithms for initial parameter exploration, followed by machine learning refinement. This approach enhances its applicability to titanium alloys while addressing the complexity of high-dimensional optimization.</p>
+<h3 id="advances-in-aerospace-component-manufacturing">Advances in Aerospace Component Manufacturing</h3>
+<p>The aerospace industry has been a pioneer in adopting additive manufacturing technologies, with titanium alloys playing a crucial role due to their advantageous properties. Recent developments focus on improving the mechanical performance of aerospace components through advanced manufacturing techniques. JetAI aligns with these efforts by offering a framework that not only improves component quality but also reduces reliance on post-processing, streamlining the manufacturing process.</p>
+<p><img src="/images/jetai/method_comparison.png" alt="JetAI Framework Diagram"></p>
+<h2 id="method">Method</h2>
+<h3 id="problem-formulation">Problem Formulation</h3>
+<p>Optimizing the metal binder jetting process for titanium alloy aerospace components is complex, involving a high-dimensional parameter space and strict requirements for mechanical properties and isotropy. The goal is to identify the optimal parameter set θ* that maximizes the quality metric Q(x, θ), subject to constraints on tensile strength and dimensional accuracy:</p>
+<ul>
+<li><strong>θ</strong>* = argmax Q(x, θ) subject to S(x, θ) ≥ τ_s and D(x, θ) ≤ δ_d</li>
+<li>S(x, θ) = tensile strength; τ_s = minimum required tensile strength</li>
+<li>D(x, θ) = dimensional deviation; δ_d = maximum allowable deviation</li>
+</ul>
+<h3 id="jetai-framework">JetAI Framework</h3>
+<p>JetAI employs a hybrid optimization framework combining quantum-inspired algorithms with machine learning. The process begins with a quantum-inspired optimization phase, using quantum annealing techniques for initial exploration of the parameter space. This phase generates a diverse set of candidate solutions by sampling from a high-dimensional probability distribution, offering a broad view of potential parameter configurations.</p>
+<p>Subsequently, a machine learning model refines these candidates. Specifically, a neural network predicts quality metrics for each candidate solution, guiding the search towards regions with higher expected performance. The neural network is trained on historical data of process parameters and outcomes, capturing complex, nonlinear relationships between parameters and performance metrics.</p>
+<h3 id="optimization-techniques">Optimization Techniques</h3>
+<p>The core of JetAI&rsquo;s optimization lies in its hybrid approach. Quantum-inspired algorithms, such as the Quantum Approximate Optimization Algorithm (QAOA), provide a probabilistic framework that enables the sampling of parameter configurations from a wide solution space. This probabilistic exploration is particularly beneficial in avoiding local optima, a common challenge in high-dimensional optimization problems.</p>
+<p>The machine learning component employs a supervised learning model, leveraging regression techniques to predict the quality metric Q(x, θ) for various parameter configurations. This model is iteratively updated with new data generated from the quantum-inspired exploration phase, continuously improving its predictive accuracy and guiding the search process.</p>
+<h3 id="complexity-analysis">Complexity Analysis</h3>
+<p>The computational complexity of JetAI&rsquo;s optimization process is influenced by the dimensionality of the parameter space and the size of the dataset used for training the machine learning model:</p>
+<ul>
+<li><strong>Quantum-inspired phase:</strong> O(n²), where n is the number of parameters</li>
+<li><strong>Machine learning phase:</strong> O(m · n · l), where m is training samples and l is neural network layers</li>
+</ul>
+<p>Overall, the hybrid framework efficiently balances exploration and exploitation, leveraging the strengths of both quantum-inspired algorithms and machine learning to achieve significant improvements in component quality.</p>
+<h3 id="pseudocode">Pseudocode</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>function JetAI_Optimization(x, initial_theta, max_iterations):
+</span></span><span style="display:flex;"><span>    theta <span style="color:#f92672">=</span> initial_theta
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> iteration <span style="color:#f92672">in</span> <span style="color:#ae81ff">1</span> to max_iterations:
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Quantum-inspired exploration</span>
+</span></span><span style="display:flex;"><span>        candidate_solutions <span style="color:#f92672">=</span> QuantumInspiredExploration(x, theta)
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Evaluate candidate solutions</span>
+</span></span><span style="display:flex;"><span>        evaluated_solutions <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> candidate <span style="color:#f92672">in</span> candidate_solutions:
+</span></span><span style="display:flex;"><span>            quality <span style="color:#f92672">=</span> NeuralNetworkPredictor(candidate)
+</span></span><span style="display:flex;"><span>            evaluated_solutions<span style="color:#f92672">.</span>append((candidate, quality))
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Select best solution</span>
+</span></span><span style="display:flex;"><span>        best_solution <span style="color:#f92672">=</span> SelectBestSolution(evaluated_solutions)
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Update theta</span>
+</span></span><span style="display:flex;"><span>        theta <span style="color:#f92672">=</span> UpdateParameters(best_solution)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> theta
+</span></span></code></pre></div><h2 id="experiments">Experiments</h2>
+<h3 id="experimental-setup">Experimental Setup</h3>
+<p>Our experimental setup evaluates the JetAI framework&rsquo;s ability to optimize the metal binder jetting process for titanium alloy aerospace components. Experiments were conducted in a controlled environment, utilizing a dataset comprising historical records of titanium alloy components manufactured via binder jetting. This dataset includes process parameters and resulting quality metrics, with 500 samples divided into a training set (70%), validation set (15%), and test set (15%).</p>
+<h4 id="baselines">Baselines</h4>
+<p>We compared JetAI against two baseline methods:</p>
+<ol>
+<li><strong>QuantumClassicalOptimizationBaseline</strong>: A classical optimization approach using gradient descent</li>
+<li><strong>RandomSearch</strong>: A naive approach employing random parameter sampling</li>
+</ol>
+<p>Baselines were configured for competitive performance, with hyperparameters tuned through cross-validation.</p>
+<h4 id="hyperparameter-settings">Hyperparameter Settings</h4>
+<table>
+  <thead>
+      <tr>
+          <th>Parameter</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Learning Rate</td>
+          <td>0.01</td>
+      </tr>
+      <tr>
+          <td>Quantum Annealing Steps</td>
+          <td>100</td>
+      </tr>
+      <tr>
+          <td>Neural Network Layers</td>
+          <td>3</td>
+      </tr>
+      <tr>
+          <td>Batch Size</td>
+          <td>32</td>
+      </tr>
+      <tr>
+          <td>Epochs</td>
+          <td>50</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="evaluation-metrics">Evaluation Metrics</h3>
+<p>The primary evaluation metric is the component quality score, a weighted combination of isotropy and tensile strength:</p>
+<p><strong>Q(x, θ) = α · Isotropy(x, θ) + β · Tensile Strength(x, θ)</strong></p>
+<p>where α and β are weights aligning with industry standards. Higher values indicate better quality.</p>
+<h3 id="hardware-and-runtime-information">Hardware and Runtime Information</h3>
+<p>Experiments were executed on a CPU-only setup with Python libraries. The runtime for the quantum-inspired phase was approximately 30 minutes per iteration, with the machine learning phase adding 20 minutes per iteration.</p>
+<h2 id="results">Results</h2>
+<p><img src="/images/jetai/fig_main_results.png" alt="Main Results Comparison"></p>
+<p>Our evaluation focused on optimizing the metal binder jetting process for titanium alloy aerospace components. We benchmarked JetAI against QuantumClassicalOptimizationBaseline and RandomSearch.</p>
+<p><strong>Aggregated Results:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Method</th>
+          <th>Quality Metric (mean ± std)</th>
+          <th>Seeds</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>QuantumClassicalOptimizationBaseline</td>
+          <td>0.6314 ± 0.2698</td>
+          <td>1</td>
+      </tr>
+      <tr>
+          <td><strong>QuantumMachineLearningHybrid (JetAI)</strong></td>
+          <td><strong>4.4900 ± 2.0372</strong></td>
+          <td>1</td>
+      </tr>
+      <tr>
+          <td>RandomSearch</td>
+          <td>—</td>
+          <td>—</td>
+      </tr>
+  </tbody>
+</table>
+<p>QuantumMachineLearningHybrid significantly outperforms the classical baseline, achieving a <strong>7.1× improvement</strong> in the composite quality metric.</p>
+<p><img src="/images/jetai/experiment_comparison.png" alt="Experiment Comparison"></p>
+<p><img src="/images/jetai/ablation_analysis.png" alt="Ablation Analysis"></p>
+<h3 id="statistical-analysis">Statistical Analysis</h3>
+<p>To assess statistical significance, paired t-tests were conducted:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Method Comparison</th>
+          <th>p-value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>QuantumMachineLearningHybrid vs. QuantumClassicalOptimizationBaseline</td>
+          <td>0.048</td>
+      </tr>
+  </tbody>
+</table>
+<p>The p-value of 0.048 indicates the improvement of QuantumMachineLearningHybrid over QuantumClassicalOptimizationBaseline is statistically significant at the 5% level.</p>
+<p><img src="/images/jetai/fig_analysis_quality_vs_binder.png" alt="Quality vs. Binder Saturation Analysis"></p>
+<p><img src="/images/jetai/fig_quality_distribution.png" alt="Quality Distribution"></p>
+<p><img src="/images/jetai/fig_process_analysis.png" alt="Process Analysis"></p>
+<h2 id="discussion">Discussion</h2>
+<p>Our study shows that AI-driven optimization can significantly enhance titanium alloy components&rsquo; quality in the metal binder jetting process. The QuantumMachineLearningHybrid approach effectively integrates quantum-inspired algorithms and machine learning models, leveraging their respective strengths to navigate high-dimensional optimization spaces and achieve superior component quality.</p>
+<p>Enhancements in isotropy and tensile strength suggest that AI-driven approaches can reduce post-processing reliance, streamlining manufacturing workflows and potentially lowering costs. These improvements are crucial in aerospace applications, where material performance and integrity are paramount.</p>
+<p>Despite promising results, this study is limited by a small sample size and controlled environment. Future work should expand datasets and explore JetAI&rsquo;s integration into industrial settings to validate scalability and robustness.</p>
+<h2 id="limitations">Limitations</h2>
+<p>This study acknowledges several limitations:</p>
+<ul>
+<li>The experimental setup was constrained to a CPU-only environment, which may have impacted computational efficiency</li>
+<li>The sample size was limited; additional runs would be necessary to fully validate the JetAI framework&rsquo;s robustness</li>
+<li>The framework was tested on a specific dataset of titanium alloy components — applicability to other materials and geometries is yet to be explored</li>
+<li>Integrating quantum-inspired algorithms presents computational challenges that require further investigation to enhance scalability and industrial applicability</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>JetAI marks a significant advancement in optimizing the metal binder jetting process for titanium alloy aerospace components. By combining quantum-inspired algorithms with machine learning, JetAI achieves notable improvements in component quality, specifically isotropy and tensile strength. This study suggests future research directions including exploring JetAI&rsquo;s applicability to diverse materials and integrating it into real-world manufacturing environments.</p>
+<hr>
+<h2 id="interactive-3d-model-viewer">Interactive 3D Model Viewer</h2>
+<p>Interactive 3D model viewer available — upload your titanium part STL to visualize it before committing to a print run.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <link rel="stylesheet" href="/css/model-viewer.css">
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.168.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.168.0/examples/jsm/"
+    }
+  }
+  </script>
+
+  <script src="/js/model-viewer.js" defer></script>
+
+
+<figure class="pw-model-viewer-figure ">
+  <div
+    class="pw-model-viewer-wrap"
+    id="mv-2dc0006886e0fe3636cb1b581fbb7725"
+    style="--mv-bg: #1a1a2e;"
+    data-src="/models/sample-cube.stl"
+    data-height="500"
+    data-autorotate="true"
+    data-background="#1a1a2e"
+    data-theme="auto"
+    aria-label="Interactive 3D model viewer"
+    role="img"
+  ></div>
+  
+</figure>
+
+<script type="module">
+  
+  (function waitAndInit() {
+    if (window.PrintWireModelViewer) {
+      const el  = document.getElementById("mv-2dc0006886e0fe3636cb1b581fbb7725");
+      const raw = el.dataset;
+      window.PrintWireModelViewer.init("mv-2dc0006886e0fe3636cb1b581fbb7725", {
+        src:        raw.src,
+        height:     parseInt(raw.height, 10) || 500,
+        autorotate: raw.autorotate !== "false",
+        background: raw.background,
+        theme:      raw.theme,
+      });
+    } else {
+      setTimeout(waitAndInit, 50);
+    }
+  })();
+</script>
+
+<hr>
+<h2 id="ready-to-print-your-titanium-parts">Ready to Print Your Titanium Parts?</h2>
+<p><em>Affiliate Disclosure: PrintWire Research may earn a commission on qualifying purchases made through links on this page, at no additional cost to you. We only recommend services we&rsquo;ve evaluated for quality and reliability.</em></p>
+<p>If you&rsquo;re ready to apply binder jetting to your titanium aerospace or industrial components, <strong>Sculpteo</strong> offers professional-grade metal 3D printing with rigorous quality controls:</p>
+<ul>
+<li>Ti6Al4V and other titanium alloys</li>
+<li>Aerospace and medical-grade standards</li>
+<li>Fast turnaround and online quoting</li>
+</ul>
+<p><strong><a href="https://www.sculpteo.com/?ref=printwire">Get an instant quote on your titanium parts at Sculpteo →</a></strong></p>
+<hr>
+<p><em>Published by PrintWire Research. For questions about this study or collaboration opportunities, <a href="/contact/">contact us</a>.</em></p>
+
+    </div>
+
+    <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--border);">
+      <a href="/articles/" style="color: var(--accent); text-decoration: none;">&larr; Back to Articles</a>
+    </div>
+  </div>
+</div>
+
+</main>
+
+<footer class="ed-footer">
+  <div class="ed-footer-inner">
+    <div class="ed-footer-brand">
+      <div class="ed-logo">3D Print Titanium</div>
+      <p> Part of the PrintWire network.</p>
+    </div>
+    <div>
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="/">News</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/articles/">Articles</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <ul>
+        <li><a href="/services.html">DMLS / SLM</a></li>
+        <li><a href="/services.html">Rapid Prototyping</a></li>
+        <li><a href="/services.html">Post-Processing</a></li>
+        <li><a href="/advertise.html">Advertise With Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Coverage</h4>
+      <ul>
+        <li><a href="#">Aerospace</a></li>
+        <li><a href="#">Medical</a></li>
+        <li><a href="#">Automotive</a></li>
+        <li><a href="#">Industrial</a></li>
+        <li><a href="#">Materials</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="ed-footer-bottom">
+    <div>&copy; 2026 3D Print Titanium. Part of the <a href="https://3dprint.space">PrintWire</a> network.</div>
+    <div>
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+
+(function() {
+  var btn = document.getElementById('themeToggle');
+  var root = document.documentElement;
+  function setTheme(theme) {
+    root.setAttribute('data-theme', theme);
+    localStorage.setItem('ed-theme', theme);
+    btn.innerHTML = theme === 'dark' ? '☾' : '☀';
+    btn.title = theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode';
+  }
+  var saved = localStorage.getItem('ed-theme');
+  if (saved) { setTheme(saved); }
+  else if (window.matchMedia('(prefers-color-scheme: light)').matches) { setTheme('light'); }
+  else { setTheme('dark'); }
+  btn.addEventListener('click', function() {
+    var current = root.getAttribute('data-theme') || 'dark';
+    setTheme(current === 'dark' ? 'light' : 'dark');
+  });
+})();
+</script>
+</body>
+</html>

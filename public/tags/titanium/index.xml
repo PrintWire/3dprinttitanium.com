@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Titanium AM Insights on 3D Print Titanium</title>
-    <link>https://3dprinttitanium.com/articles/</link>
-    <description>Recent content in Titanium AM Insights on 3D Print Titanium</description>
+    <title>Titanium on 3D Print Titanium</title>
+    <link>https://3dprinttitanium.com/tags/titanium/</link>
+    <description>Recent content in Titanium on 3D Print Titanium</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 28 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://3dprinttitanium.com/articles/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://3dprinttitanium.com/tags/titanium/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JetAI: AI-Driven Optimization of Binder Jetting for Titanium Alloys</title>
       <link>https://3dprinttitanium.com/articles/jetai-titanium-binder-jetting-optimization-2026/</link>
       <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://3dprinttitanium.com/articles/jetai-titanium-binder-jetting-optimization-2026/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;The optimization of metal binder jetting for titanium alloy aerospace components is essential, given the industry&amp;rsquo;s shift towards additive manufacturing for its advantages in strength-to-weight ratio and corrosion resistance. Current processes face challenges in achieving optimal isotropy and mechanical properties. We introduce JetAI, an AI-driven framework that dynamically adjusts jetting parameters to optimize component quality. Utilizing a hybrid approach that combines quantum-inspired algorithms and machine learning, JetAI enhances isotropy by 36.7% and improves tensile strength to 21.54 MPa over traditional methods. These results suggest that JetAI not only benefits titanium alloys but also holds potential for broader material applications, setting a new standard in aerospace manufacturing.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>HIP vs. Stress Relief for DMLS Titanium: When Each Is Required</title>
-      <link>https://3dprinttitanium.com/articles/hip-vs-stress-relief/</link>
-      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://3dprinttitanium.com/articles/hip-vs-stress-relief/</guid>
-      <description>HIP and stress relief are both standard post-processing steps for DMLS titanium, but they address different defects and are not interchangeable. This guide clarifies when each is mandated.</description>
     </item>
   </channel>
 </rss>
