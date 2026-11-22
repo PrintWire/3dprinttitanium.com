@@ -1,72 +1,56 @@
 ---
-title: "Orbital 3D Printing: On-Demand Satellite Repair and Space Habitat Manufacturing"
+title: "Orbital 3D Printing: What Has Flown for Space Station Repair and Satellite Manufacturing"
 date: 2026-07-23T06:02:27-06:00
 draft: false
-description: "Orbital 3D printing space station repair satellite manufacturing reduces resupply costs and enables on-demand part production in microgravity."
+description: "Orbital 3D printing for space station repair and satellite manufacturing: what has flown on the ISS, from polymer printers to ESA's metal printer, and what has not."
 keywords: ["orbital 3D printing space station repair satellite manufacturing", "directed energy deposition microgravity", "in-space additive manufacturing ISS"]
 ---
 
-The premise of **orbital 3D printing space station repair satellite manufacturing** is straightforward: instead of launching replacement parts from Earth at enormous cost, build or repair them in orbit using additive manufacturing systems already aboard the station. What sounds like science fiction is now active engineering, with multiple programs running aboard the International Space Station and new IP filings in 2026 signaling the technology is maturing fast.
+The premise of **orbital 3D printing space station repair satellite manufacturing** is straightforward: instead of launching every replacement part from Earth, build some of them in orbit. Polymer printers have worked aboard the International Space Station since 2014, a metal printer made its first part there in 2024, and one prominent free-flying demonstration was ended before launch. This article separates what has flown from what remains a concept.
 
 ## The Resupply Problem
 
-Every kilogram launched to low Earth orbit costs thousands of dollars, and resupply missions to the ISS are scheduled months or years in advance. A failed bracket, a degraded thermal shield, or a cracked waveguide cover cannot simply be ordered next-day. The alternative—stockpiling spare parts—means dedicating mass and volume to components that may never be needed.
-
-Additive manufacturing changes that calculus. A single polymer feedstock spool or metal wire coil can produce dozens of different geometries on demand, replacing racks of spares with digital files and a compact manufacturing system. That is the fundamental value proposition driving investment from NASA, ESA, and commercial operators.
+A station crew cannot order a failed part for next-day delivery, and stockpiling spares means dedicating mass and volume to components that may never be needed. A printer and a supply of feedstock can, in principle, stand in for some of those spares. ESA describes the long-term aim as on-orbit manufacturing, repair and recycling, which could remove the need to send a tool up on a rocket.
 
 ## Polymer Extrusion in Microgravity: Proven Ground
 
-The earliest and most extensively validated approach to in-orbit AM is fused filament fabrication (FFF). Made In Space—now operating as Redwire Space—demonstrated polymer extrusion on the ISS as early as 2014, and their Additive Manufacturing Facility (AMF) has since produced hundreds of parts aboard the station.
+The earliest and best documented approach is fused filament fabrication. Made In Space built the first 3D printer sent to the station, which launched on SpaceX CRS-4 on 21 September 2014 and printed its first part on 24 November 2014. On 17 December 2014 it printed a ratchet wrench from a design file uplinked from the ground, which NASA says demonstrated that a design could be sent remotely to a manufacturing system in orbit. The 3D Printing in Zero G investigation produced dozens of parts, which researchers compared with versions made on the ground.
 
-Microgravity actually simplifies some aspects of FFF: without gravity-induced layer slumping, certain overhanging geometries print without support structures. However, new challenges emerge:
+Made In Space followed with the Additive Manufacturing Facility (AMF), installed on the station in April 2016. It can print objects up to 10 cm x 10 cm x 14 cm in ABS, high-density polyethylene and a polyetherimide/polycarbonate blend. NASA lists several functional items printed on it, including an antenna part, an adaptor for a probe on the oxygen generation system and a connector for two SPHERES robots. Made In Space was acquired by Redwire in June 2020.
 
-- **Thermal management:** Convective cooling is absent; heat dissipates only through conduction and radiation, requiring adjusted print parameters.
-- **Bed adhesion:** Protocols must account for the absence of gravity acting on the part during deposition.
-- **Outgassing:** Material requirements are stricter inside a pressurized, crewed habitat.
+Recycling has been tested as well. The ReFabricator, which uses Tethers Unlimited technology to turn waste plastic and old printed items back into filament, began operating on the station in February 2019.
 
-Current ISM (In-Space Manufacturing) programs are validating thermoplastic composites—including chopped carbon fiber-reinforced nylon—for structural applications where unfilled polymer falls short. These materials bring ISS-produced parts closer to the performance envelopes required for genuine mechanical repair rather than simple tool or bracket replacement.
+## Metal Printing in Orbit: First Parts Made
 
-## Directed Energy Deposition: The Metal Manufacturing Frontier
+NASA noted in its account of the polymer work that many needed parts are metal, and named metal processes as the next push. The first metal printer on the station came from ESA. The Metal 3D Printer technology demonstrator was developed by an industrial team led by Airbus, which also co-funded it, under contract to ESA. It launched on the Cygnus NG-20 resupply mission at the end of January 2024 and was installed by astronaut Andreas Mogensen in the European Drawer Rack Mark II in the Columbus module. The payload weighs about 180 kg.
 
-For metal components—fasteners, brackets, waveguide sections, antenna elements—polymer extrusion is not sufficient. Directed Energy Deposition (DED), which uses a focused laser or electron beam to melt metallic feedstock at the point of deposition, is the leading candidate for in-orbit metal AM.
+The process is wire-fed laser deposition. Stainless steel wire is fed into a print area heated by a high-power laser, and the end of the wire melts into the melt pool to add metal to the part. ESA says the melt pool is about a millimetre across and that surface tension holds the liquid metal in place in weightlessness. The printer runs inside a fully sealed box to keep heat and fumes from the crew, and the oxygen inside is vented and replaced with nitrogen before printing because hot stainless steel would oxidise. Printing is controlled from the ground.
 
-### Why Wire-Feed DED Over Powder Bed
+ESA reported on 3 June 2024 that the first metal print in space had taken place the previous week. Four test shapes were chosen, each smaller than a soda can and under 250 g. The parts are to be returned to Earth and compared with reference prints made on the ground, with samples going to ESTEC in the Netherlands, the European Astronaut Centre and the Technical University of Denmark.
 
-Wire-feed DED variants, including Wire Arc Additive Manufacturing (WAAM), hold particular promise for space applications. Loose metal powder presents containment and inhalation hazards in a pressurized spacecraft, while a continuous wire spool is safer to handle and more straightforward to certify for crewed environments. Wire-feed systems can process [titanium alloys used in aerospace structures](/3dprinttitanium.com/titanium-aerospace-alloys/), including Ti-6Al-4V—the dominant structural alloy across launch vehicles and satellites.
-
-### Microgravity DED Challenges
-
-The microgravity DED challenge set differs from polymer work in important ways. Melt pool dynamics change when buoyancy-driven convection is absent: surface tension and Marangoni flow dominate, altering solidification microstructure compared to terrestrial deposits. Residual stress accumulation is also harder to manage without gravity partially constraining distortion during cooling.
-
-Several research teams have run short-duration wire DED experiments on parabolic flight campaigns and suborbital platforms to characterize these effects before committing to ISS hardware. For a closer look at how deposition parameters shift across gravity environments, see our overview of [DED process parameter optimization](/3dprinttitanium.com/directed-energy-deposition-parameters/).
+This is a demonstration with stainless steel, not a repair capability, and the sources reviewed here do not describe titanium being printed in orbit.
 
 ## Satellite Repair and On-Orbit Servicing
 
-The satellite repair use case has grown more concrete as on-orbit servicing missions have demonstrated proximity operations in LEO and GEO. An AM system integrated into a servicing vehicle—or deployed as a standalone orbital platform—could manufacture replacement components on location: solar array brackets, thermal management hardware, structural ribs, or antenna reflector segments.
+Satellite servicing in geosynchronous orbit is real, although it has not involved printing. Mission Extension Vehicle 1 docked with Intelsat 901 on 25 February 2020, the first rendezvous and docking in geosynchronous orbit, and stayed attached until April 2025. MEV-2 docked with Intelsat 10-02 on 12 April 2021. These were docking missions that extended the life of existing satellites; neither manufactured or replaced a component. Printing a replacement fitting on a servicing vehicle would be a further step beyond what these missions did.
 
-Current geostationary satellites cost hundreds of millions of dollars to build and launch. A structural failure that would otherwise force a write-off could potentially be addressed by a DED system that prints a replacement fitting, installed by a servicing robot. The economic case strengthens as operators push for extended mission lives beyond original design parameters.
+## Large Structures: Archinaut Did Not Fly
 
-## Space Habitat Construction: Longer-Term but Active
+The best known attempt to manufacture outside a pressurized module was Archinaut, later called OSAM-2. It began in 2016 as a $20 million NASA-funded partnership in which Made In Space built the 3D printer, Oceaneering supplied the manipulator arm and Northrop Grumman handled control electronics, software and integration. The aim was to build large structures in space, starting with antenna reflectors for communication satellites. The planned Archinaut One flight would have built two ten-meter solar arrays on an ESPA satellite.
 
-Beyond repair, orbital AM is a foundational technology for space habitat construction. Printing structural elements from resupplied feedstock—rather than launching fully assembled modules—dramatically expands what is architecturally achievable in orbit.
+Ground work went well. In 2017 Made In Space set a Guinness record with a printed beam more than 37 meters long, and in 2020 Redwire printed a 7 m flight-like beam in conditions similar to orbit. The project passed its Critical Design Review in 2022. In 2023 NASA ended it without proceeding to a flight demonstration.
 
-Redwire's Archinaut program targets external space manufacturing: a platform intended to print and assemble large structures—solar arrays, truss segments, habitat frameworks—directly in the vacuum and thermal environment of space, bypassing rocket fairing volume constraints. While Archinaut work has focused on deployable structures, the enabling technology stack—precision extrusion, robotic assembly, real-time process monitoring—maps directly onto repair applications.
+## Where Things Stand
 
-## 2026 Patent Activity: Signals of Industry Maturation
+Printing polymer parts on the station is established, with hardware on the station since 2014. Metal printing in orbit has moved from plan to first parts, in stainless steel and inside a sealed enclosure. Free-flying manufacture of large structures has been designed and ground tested but not flown. The distance from a printed ratchet wrench to load-bearing hardware made on demand is still large, and the evidence so far comes from a small number of demonstrations.
 
-Patent filing rates are a reliable indicator that a technology is moving from research programs into productized engineering. In 2026, at least six patent applications covering orbital and deep-space AM systems have been filed, spanning topics that include:
+## Sources
 
-- Microgravity melt pool monitoring systems
-- Wire-feed mechanism designs rated for vacuum operation
-- Thermal management approaches for DED without convective cooling
-- Hybrid subtractive-additive platforms for in-orbit finishing and quality verification
+- [NASA: Solving the Challenges of Long Duration Space Flight with 3D Printing](https://www.nasa.gov/missions/station/solving-the-challenges-of-long-duration-space-flight-with-3d-printing/)
+- [Made In Space (Wikipedia)](https://en.wikipedia.org/wiki/Made_In_Space)
+- [ESA: ESA launches first metal 3D printer to ISS](https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ESA_launches_first_metal_3D_printer_to_ISS)
+- [ESA: First metal 3D printing on Space Station](https://www.esa.int/ESA_Multimedia/Images/2024/06/First_metal_3D_printing_on_Space_Station)
+- [Mission Extension Vehicle (Wikipedia)](https://en.wikipedia.org/wiki/Mission_Extension_Vehicle)
+- [OSAM-2 (Wikipedia)](https://en.wikipedia.org/wiki/OSAM-2)
 
-The concentration of these filings across aerospace primes, AM technology developers, and space agency-affiliated research organizations reflects an industry aligning around common technical problems rather than exploring in isolation.
-
-## What Comes Next
-
-The near-term roadmap for orbital 3D printing space station repair and satellite manufacturing includes certifying polymer composite parts to structural load requirements, demonstrating sustained metal DED deposition in microgravity (well beyond what parabolic flight campaigns allow), and integrating process monitoring systems capable of verifying part quality without Earth-side metrology labs.
-
-As launch costs continue to fall and satellite constellations expand, the economics of orbital AM improve with each passing year. The infrastructure investment needed to put an AM system in orbit becomes easier to justify when that system can serve dozens of satellites across a constellation's operational life.
-
-The transition from demonstrating a printed polymer wrench aboard the ISS to manufacturing load-bearing titanium hardware on demand is underway. The engineering groundwork being laid now—aboard the ISS, in suborbital test campaigns, and in the 2026 patent filings accumulating across the industry—makes that transition a matter of when, not whether.
+Fact-checked 2026-11-21
