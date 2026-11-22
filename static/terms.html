@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Terms for using 3D Print Titanium, part of the PrintWire network.">
+    <meta property="og:title" content="Terms | 3D Print Titanium">
+    <meta property="og:description" content="Terms for using 3D Print Titanium, part of the PrintWire network.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/13-batch-build-plate-overhead.png">
+    <title>Terms | 3D Print Titanium</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/editorial.css">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+</head>
+<body>
+
+<header class="ed-header">
+  <div class="ed-header-inner">
+    <a href="index.html" class="ed-logo">3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">TITANIUM</span></a>
+    <button class="ed-nav-toggle" aria-label="Menu" onclick="document.querySelector('.ed-nav').classList.toggle('open')">&#9776;</button>
+    <nav class="ed-nav">
+      <a href="index.html">News</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="advertise.html">Advertise</a>
+      <a href="viewer.html">3D Viewer</a>
+    </nav>
+    <button class="ed-theme-toggle" id="themeToggle" aria-label="Toggle light/dark mode">&#9790;</button>
+  </div>
+</header>
+
+<main>
+  <nav class="ed-breadcrumbs">
+    <a href="/">Home</a> / <span>Terms</span>
+  </nav>
+
+  <div class="ed-content-narrow">
+
+    <section class="ed-section" style="padding-top:2.5rem;">
+      <h1 style="margin-bottom:0.75rem;">Terms</h1>
+      <p>Terms for using 3D Print Titanium (3dprinttitanium.com). Last updated 21 November 2026.</p>
+    </section>
+
+    <section class="ed-section">
+      <h2 style="margin-bottom:0.6rem;">Information only</h2>
+      <p>Articles and pages on this site are general information. They are not engineering, medical, legal or safety advice. Check any figure against its source before you rely on it.</p>
+    </section>
+
+    <section class="ed-section">
+      <h2 style="margin-bottom:0.6rem;">News from other publishers</h2>
+      <p>Headlines in the news sections link to other publishers. PrintWire did not write those stories and is not responsible for them.</p>
+    </section>
+
+    <section class="ed-section">
+      <h2 style="margin-bottom:0.6rem;">Quote requests</h2>
+      <p>PrintWire does not manufacture parts itself. We pass your request to specialised manufacturers and reply with pricing.</p>
+      <p>A quote request is not an order. Any order is agreed separately, in writing, before anything is made or charged.</p>
+      <p>PrintWire may earn a fee when a request leads to an order.</p>
+    </section>
+
+    <section class="ed-section">
+      <h2 style="margin-bottom:0.6rem;">No warranty</h2>
+      <p>The site is provided as it is. PrintWire does not promise that it is complete, current or free of errors.</p>
+    </section>
+
+    <section class="ed-section">
+      <h2 style="margin-bottom:0.6rem;">Privacy</h2>
+      <p>See the <a href="/privacy.html">privacy page</a>.</p>
+    </section>
+
+    <section class="ed-section">
+      <h2 style="margin-bottom:0.6rem;">Contact</h2>
+      <p>Use the <a href="/contact.html">contact page</a>.</p>
+    </section>
+
+  </div>
+
+</main>
+
+<footer class="ed-footer">
+  <div class="ed-footer-inner">
+    <div class="ed-footer-brand">
+      <div class="ed-logo" style="font-size:1.3rem;margin-bottom:0.5rem;">3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">TITANIUM</span></div>
+      <p>The authoritative source for metal additive manufacturing news, materials research, and service bureau intelligence. Part of the PrintWire network.</p>
+    </div>
+    <div><h4>Navigation</h4><ul><li><a href="index.html">News</a></li><li><a href="services.html">Services</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="services.html">DMLS / SLM</a></li><li><a href="services.html">Rapid Prototyping</a></li><li><a href="services.html">Post-Processing</a></li><li><a href="advertise.html">Advertise With Us</a></li></ul></div>
+    <div><h4>Coverage</h4><ul><li>Aerospace</li><li>Medical</li><li>Automotive</li><li>Industrial</li><li>Materials</li></ul></div>
+  </div>
+  <div class="ed-footer-bottom">
+    <span>&copy; 2026 3D Print Titanium. Part of the <a href="https://3dprint.space" style="color:var(--accent);">PrintWire</a> network.</span>
+    <span><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a></span>
+  </div>
+</footer>
+
+<script>
+(function() {
+  var btn = document.getElementById('themeToggle');
+  var root = document.documentElement;
+  function setTheme(t) { root.setAttribute('data-theme', t); localStorage.setItem('ed-theme', t); btn.innerHTML = t === 'dark' ? '&#9790;' : '&#9728;'; }
+  var s = localStorage.getItem('ed-theme');
+  if (s) setTheme(s); else if (window.matchMedia('(prefers-color-scheme: light)').matches) setTheme('light'); else setTheme('dark');
+  btn.addEventListener('click', function() { setTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); });
+})();
+</script>
+
+</body>
+</html>

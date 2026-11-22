@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy page for 3D Print Titanium: what the contact form collects and who processes it.">
+    <meta property="og:title" content="Privacy | 3D Print Titanium">
+    <meta property="og:description" content="Privacy page for 3D Print Titanium: what the contact form collects and who processes it.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/13-batch-build-plate-overhead.png">
+    <title>Privacy | 3D Print Titanium</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/editorial.css">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+</head>
+<body>
+
+<header class="ed-header">
+  <div class="ed-header-inner">
+    <a href="index.html" class="ed-logo">3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">TITANIUM</span></a>
+    <button class="ed-nav-toggle" aria-label="Menu" onclick="document.querySelector('.ed-nav').classList.toggle('open')">&#9776;</button>
+    <nav class="ed-nav">
+      <a href="index.html">News</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="advertise.html">Advertise</a>
+      <a href="viewer.html">3D Viewer</a>
+    </nav>
+    <button class="ed-theme-toggle" id="themeToggle" aria-label="Toggle light/dark mode">&#9790;</button>
+  </div>
+</header>
+
+<main>
+  <nav class="ed-breadcrumbs">
+    <a href="/">Home</a> / <span>Privacy</span>
+  </nav>
+
+  <div class="ed-content-narrow">
+
+    <section class="ed-section" style="padding-top:2.5rem;">
+      <h1 style="margin-bottom:0.75rem;">Privacy</h1>
+      <p>What 3D Print Titanium (3dprinttitanium.com) collects today. Last updated 21 November 2026.</p>
+    </section>
+
+    <section class="ed-section">
+      <h2 style="margin-bottom:0.6rem;">Who runs this site</h2>
+      <p>3D Print Titanium is part of the PrintWire network. You can reach PrintWire through the <a href="/contact.html">contact page</a>.</p>
+    </section>
+
+    <section class="ed-section">
+      <h2 style="margin-bottom:0.6rem;">What the forms collect</h2>
+      <p>The forms on this site collect only what you type into them: your name, your email address and your message, and your company, your phone number and an attached file if you choose to give them.</p>
+    </section>
+
+    <section class="ed-section">
+      <h2 style="margin-bottom:0.6rem;">How it is used</h2>
+      <p>We use it to answer you.</p>
+      <p>If you ask for a quote, PrintWire may pass your request to manufacturers to obtain pricing. That can include the details you gave us.</p>
+    </section>
+
+    <section class="ed-section">
+      <h2 style="margin-bottom:0.6rem;">Who processes it</h2>
+      <p>Form submissions are handled by Web3Forms (<a href="https://web3forms.com" rel="noopener">web3forms.com</a>), which delivers them to PrintWire by email. Web3Forms acts as our processor.</p>
+      <p>The site is hosted on GitHub Pages. GitHub may log the IP addresses of visitors.</p>
+      <p>Pages load fonts, images and news headlines from third parties, for example Google Fonts and the rss2json.com news feed service. Those services see your IP address when your browser requests them.</p>
+    </section>
+
+    <section class="ed-section">
+      <h2 style="margin-bottom:0.6rem;">Analytics and advertising</h2>
+      <p>This site uses no analytics and no advertising trackers today. It may store your light or dark theme choice in your browser. It sets no tracking cookies.</p>
+      <p>If that changes, this page will be updated first.</p>
+    </section>
+
+    <section class="ed-section">
+      <h2 style="margin-bottom:0.6rem;">Your choices</h2>
+      <p>To ask what we hold about you, or to have it deleted, use the <a href="/contact.html">contact page</a>.</p>
+    </section>
+
+  </div>
+
+</main>
+
+<footer class="ed-footer">
+  <div class="ed-footer-inner">
+    <div class="ed-footer-brand">
+      <div class="ed-logo" style="font-size:1.3rem;margin-bottom:0.5rem;">3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">TITANIUM</span></div>
+      <p>The authoritative source for metal additive manufacturing news, materials research, and service bureau intelligence. Part of the PrintWire network.</p>
+    </div>
+    <div><h4>Navigation</h4><ul><li><a href="index.html">News</a></li><li><a href="services.html">Services</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="services.html">DMLS / SLM</a></li><li><a href="services.html">Rapid Prototyping</a></li><li><a href="services.html">Post-Processing</a></li><li><a href="advertise.html">Advertise With Us</a></li></ul></div>
+    <div><h4>Coverage</h4><ul><li>Aerospace</li><li>Medical</li><li>Automotive</li><li>Industrial</li><li>Materials</li></ul></div>
+  </div>
+  <div class="ed-footer-bottom">
+    <span>&copy; 2026 3D Print Titanium. Part of the <a href="https://3dprint.space" style="color:var(--accent);">PrintWire</a> network.</span>
+    <span><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a></span>
+  </div>
+</footer>
+
+<script>
+(function() {
+  var btn = document.getElementById('themeToggle');
+  var root = document.documentElement;
+  function setTheme(t) { root.setAttribute('data-theme', t); localStorage.setItem('ed-theme', t); btn.innerHTML = t === 'dark' ? '&#9790;' : '&#9728;'; }
+  var s = localStorage.getItem('ed-theme');
+  if (s) setTheme(s); else if (window.matchMedia('(prefers-color-scheme: light)').matches) setTheme('light'); else setTheme('dark');
+  btn.addEventListener('click', function() { setTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); });
+})();
+</script>
+
+</body>
+</html>
