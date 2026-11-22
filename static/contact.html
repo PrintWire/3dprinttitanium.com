@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Contact 3D Print Titanium. Ask a question or request a quote. PrintWire passes quote requests to specialised manufacturers and replies with pricing.">
-    <meta name="keywords" content="3d metal printing quote, metal additive manufacturing contact, DMLS quote, metal prototyping inquiry">
     <meta property="og:title" content="Contact | 3D Print Titanium">
     <meta property="og:description" content="Contact 3D Print Titanium. Ask a question or request a quote. PrintWire passes quote requests to specialised manufacturers and replies with pricing.">
     <meta property="og:type" content="website">
@@ -24,7 +23,7 @@
     <button class="ed-nav-toggle" aria-label="Menu" onclick="document.querySelector('.ed-nav').classList.toggle('open')">&#9776;</button>
     <nav class="ed-nav">
       <a href="index.html">News</a>
-      <a href="services.html">Services</a>
+      <a href="services.html">Quotes</a>
       <a href="about.html">About</a>
       <a href="contact.html" class="active">Contact</a>
       <a href="advertise.html">Advertise</a>
@@ -100,12 +99,21 @@
             </div>
 
             <div class="ed-form-group">
-              <label for="file">Upload File (STL, STEP, IGES)</label>
-              <input type="file" id="file" name="file" accept=".stl,.step,.stp,.iges,.igs,.sldprt,.sldasm">
+<label for="export_control">Is this part subject to ITAR or EAR? <span class="required">*</span></label>
+<select id="export_control" name="export_control" required style="width:100%;padding:0.6rem;">
+<option value="">Select an answer</option>
+<option value="yes">Yes</option>
+<option value="no">No</option>
+<option value="not-sure">Not sure</option>
+</select>
+</div>
+<div class="ed-form-group">
+              <label for="file">Upload a CAD file or PDF drawing (STL, STEP, IGES, PDF)</label>
+              <input type="file" id="file" name="file" accept=".stl,.step,.stp,.iges,.igs,.sldprt,.sldasm,.pdf">
             </div>
 
+<p class="pw-consent" style="font-size:0.8rem;line-height:1.5;margin:0.9rem 0;opacity:0.9;"><label style="display:flex;gap:0.5rem;align-items:flex-start;font-weight:400;text-transform:none;letter-spacing:0;"><input type="checkbox" name="consent" value="agreed" required style="width:auto;flex:none;margin-top:0.2rem;"> <span>I have the right to share these files. I agree that PrintWire may send my request, files and contact details to manufacturers to obtain pricing, and that they may contact me about this request. If I place an order, my contract is with the manufacturer, not PrintWire. I accept the <a href="/terms.html" style="text-decoration:underline;">Terms</a> and <a href="/privacy.html" style="text-decoration:underline;">Privacy Policy</a>.</span></label></p>
             <button type="submit" class="ed-form-submit">Submit Quote Request</button>
-<p class="pw-consent" style="font-size:0.8rem;line-height:1.5;margin-top:0.9rem;opacity:0.85;">By sending this form you agree that PrintWire may pass your request to manufacturers to obtain pricing. See the <a href="/privacy.html" style="text-decoration:underline;">privacy page</a>.</p>
 </form>
         </div>
 
@@ -119,16 +127,44 @@
 <footer class="ed-footer">
   <div class="ed-footer-inner">
     <div class="ed-footer-brand">
-      <div class="ed-logo" style="font-size:1.3rem;margin-bottom:0.5rem;">3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">TITANIUM</span></div>
-      <p>The authoritative source for metal additive manufacturing news, materials research, and service bureau intelligence. Part of the PrintWire network.</p>
+      <div class="ed-logo" style="font-size:1.3rem; margin-bottom: 0.5rem;">3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">TITANIUM</span></div>
+      <p>A PrintWire network site about titanium 3D printing. PrintWire passes quote requests to specialised manufacturers and returns pricing.</p>
     </div>
-    <div><h4>Navigation</h4><ul><li><a href="index.html">News</a></li><li><a href="services.html">Services</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
-    <div><h4>Services</h4><ul><li><a href="services.html">DMLS / SLM</a></li><li><a href="services.html">Rapid Prototyping</a></li><li><a href="services.html">Post-Processing</a></li><li><a href="advertise.html">Advertise With Us</a></li></ul></div>
-    <div><h4>Coverage</h4><ul><li>Aerospace</li><li>Medical</li><li>Automotive</li><li>Industrial</li><li>Materials</li></ul></div>
+    <div>
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="/">News</a></li>
+        <li><a href="/services.html">Quotes</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/articles/">Articles</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Quotes</h4>
+      <ul>
+        <li><a href="/services.html">How quotes work</a></li>
+        <li><a href="/contact.html">Request a quote</a></li>
+        <li><a href="/advertise.html">Advertise With Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Coverage</h4>
+      <ul>
+        <li>Aerospace</li>
+        <li>Medical</li>
+        <li>Automotive</li>
+        <li>Industrial</li>
+        <li>Materials</li>
+      </ul>
+    </div>
   </div>
   <div class="ed-footer-bottom">
     <span>&copy; 2026 3D Print Titanium. Part of the <a href="https://3dprint.space" style="color:var(--accent);">PrintWire</a> network.</span>
-    <span><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a></span>
+    <span>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/terms.html">Terms</a>
+    </span>
   </div>
 </footer>
 

@@ -51,7 +51,7 @@ title = "3D Print Titanium"
   name        = "Aerospace Titanium Parts"
   icon        = "◎"
   image       = "images/03_internal_channels.png"
-  description = "Ti6Al4V DMLS structural components for aerospace — brackets, ducting, housings, and topology-optimized flight-critical hardware."
+  description = "3D Print Titanium is a PrintWire network site about titanium 3D printing. PrintWire passes quote requests to specialised manufacturers and returns pricing. PrintWire does not manufacture parts itself."
 
 [[params.services]]
   name        = "Medical Implants"

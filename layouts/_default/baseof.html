@@ -44,7 +44,7 @@
     <button class="ed-nav-toggle" aria-label="Menu" onclick="document.querySelector('.ed-nav').classList.toggle('open')">&#9776;</button>
     <nav class="ed-nav">
       <a href="/">News</a>
-      <a href="/services.html">Services</a>
+      <a href="/services.html">Quotes</a>
       <a href="/about.html">About</a>
       <a href="/articles/" class="active">Articles</a>
       <a href="/contact.html">Contact</a>
@@ -66,25 +66,24 @@
 <footer class="ed-footer">
   <div class="ed-footer-inner">
     <div class="ed-footer-brand">
-      <div class="ed-logo">{{ .Site.Params.logoHtml | default .Site.Params.siteName | safeHTML }}</div>
-      <p>{{ .Site.Params.description }} Part of the PrintWire network.</p>
+      <div class="ed-logo" style="font-size:1.3rem; margin-bottom: 0.5rem;">3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">TITANIUM</span></div>
+      <p>A PrintWire network site about titanium 3D printing. PrintWire passes quote requests to specialised manufacturers and returns pricing.</p>
     </div>
     <div>
       <h4>Navigation</h4>
       <ul>
         <li><a href="/">News</a></li>
-        <li><a href="/services.html">Services</a></li>
+        <li><a href="/services.html">Quotes</a></li>
         <li><a href="/about.html">About</a></li>
         <li><a href="/articles/">Articles</a></li>
         <li><a href="/contact.html">Contact</a></li>
       </ul>
     </div>
     <div>
-      <h4>Services</h4>
+      <h4>Quotes</h4>
       <ul>
-        <li><a href="/services.html">DMLS / SLM</a></li>
-        <li><a href="/services.html">Rapid Prototyping</a></li>
-        <li><a href="/services.html">Post-Processing</a></li>
+        <li><a href="/services.html">How quotes work</a></li>
+        <li><a href="/contact.html">Request a quote</a></li>
         <li><a href="/advertise.html">Advertise With Us</a></li>
       </ul>
     </div>
@@ -100,11 +99,11 @@
     </div>
   </div>
   <div class="ed-footer-bottom">
-    <div>&copy; 2026 {{ .Site.Params.siteName }}. Part of the <a href="https://3dprint.space">PrintWire</a> network.</div>
-    <div>
+    <span>&copy; 2026 3D Print Titanium. Part of the <a href="https://3dprint.space" style="color:var(--accent);">PrintWire</a> network.</span>
+    <span>
       <a href="/privacy.html">Privacy</a>
       <a href="/terms.html">Terms</a>
-    </div>
+    </span>
   </div>
 </footer>
 
